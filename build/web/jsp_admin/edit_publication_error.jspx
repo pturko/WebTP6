@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" 
+          xmlns:c="http://java.sun.com/jsp/jstl/core"
+          version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <html>
+        <head>
+          <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+          <title>${EDIT_CONFIRM_ERROR}</title>
+        </head>
+    
+        <body>
+            
+            <br /><br />
+            <div id="table_white_admin">
+                <h3>${EDIT_CONFIRM_ERROR}</h3>
+                
+                <br /><br />${MISTAKE_MESSAGE}.<br />${MISTAKE_TRY_MESSAGE}!<br /><br /><br /><br />
+                       
+                <br /><br />
+                
+                <center>    
+                 <table align="center" width="400" border='0'>
+                    <tbody>
+                     <tr><td align="center">
+                
+                    <form name="loginForm" method="POST" action="controller">
+                        <input type="hidden" name="command" value="login"/>                       
+                        <input class="classbutton" type="submit" value="${MAIN_MESSAGE}"/>
+                    </form> 
+                    
+                    </td><td align="center">
+                
+                        
+                    <form name="loginForm" method="POST" action="controller">
+                        <input type="hidden" name="command" value="list_admin"/>                       
+                        <input class="classbutton" type="submit" value="${TRY_AGAIN_MESSAGE}"/>
+                    </form> 
+                    
+                    </td>
+                        </tr>                    
+                    </tbody>
+                </table> 
+                   
+                </center>         
+                    
+                    
+                    
+                    
+                    
+            </div>
+                       
+        </body>
+    </html>
+
+</jsp:root>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : error
+    Created on : 22.07.2013, 12:44:00
+    Author     : Maksym
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+            <title>Error</title>
+        </head>
+        <body>
+            <br /><br /><br />
+            <div id="table_error">
+                <jsp:expression>(request.getAttribute("errorMessage") != null) ? (String) request.getAttribute("errorMessage") : "unknown error"</jsp:expression>
+               
+                <br /><br /><br />
+                <a href="controller">${RETURN_LINK_MESSAGE}</a>
+            </div>
+           
+            
+        </body>
+    </html>
+
+
+</jsp:root>
