@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" 
+          xmlns:c="http://java.sun.com/jsp/jstl/core"
+          version="2.0">
+
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+    <!-- any content can be specified here, e.g.: -->
+    <html>
+    <head>
+          <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+          <title>${SUBSCRIBE_MESSAGE}</title>
+    </head>
+    <body>
+       
+       <br /><br />
+       <div id="table_white">
+          <h3>${SUBSCRIBE_MESSAGE}</h3>
+                ${SUBSCRIBE_TO_ORDERS_MESSAGE}
+                
+                <br /><br /><br /><br /><br /><br />
+                
+                  <center>
+                <table width="450px" border='0'>
+                    <tbody>
+                        <tr>
+                            <td align="center">
+                        
+                    <form name="loginForm" method="POST" action="controller">
+                        <input type="hidden" name="command" value="login"/>                       
+                        <input class="classbutton" type="submit" value="${MAIN_MESSAGE}"/>
+                    </form> 
+                
+                        
+                                      </td>
+                 </tr>
+                     </tbody>
+                </table> 
+           </center>
+                
+                
+         </div>  
+        
+        
+    </body>
+</html>
+
+ </jsp:root>

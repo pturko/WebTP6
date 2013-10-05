@@ -1,0 +1,122 @@
+body     {background-color:#ccc; background-image:url(../img/pixels-background.jpg); }
+
+
+a {		
+	color:#8D24C9; 
+	font-size:20px; 
+	font-family:arial;
+	}
+	
+#table_error {
+		font-family:arial;
+		-moz-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		-webkit-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		box-shadow:inset 0px 2px 0px 0px #bbdaf7;	
+                padding-top:100px; 
+		padding-bottom:100px;
+                padding-left:100px; 
+		padding-right:100px;
+		background-color:#FFBDD8; text-align:center;
+		color:#E8154A;
+		font-size:24px; 
+		font-family:arial;
+	}	
+
+#table_white {
+		font-family:arial;
+		-moz-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		-webkit-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		box-shadow:inset 0px 2px 0px 0px #bbdaf7;	
+                padding-top:20px; 
+		padding-bottom:100px;
+                padding-left:50px; 
+		padding-right:50px;
+		background-color:#BAF8FF; text-align:center;
+	}
+
+#table_white_admin {
+		font-family:arial;
+		-moz-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		-webkit-box-shadow:inset 0px 2px 0px 0px #bbdaf7;
+		box-shadow:inset 0px 2px 0px 0px #bbdaf7;	
+                padding-top:20px; 
+		padding-bottom:100px;
+                padding-left:50px; 
+		padding-right:50px;
+		background-color:#CDF9FF; text-align:center;
+	}
+        
+#find {
+    background: url('find.png') no-repeat 1px 1px;
+    border:solid 1px #848388;
+    font-size:18px;
+    padding-left:5px;
+    padding-rightt:5px;
+    line-height:18px;
+    width:200px;
+}
+
+#find:focus {
+    background-color:#F0F0F0;
+}
+
+
+.classbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #1b62a8) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #1b62a8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#1b62a8');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:4px 20px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.classbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1b62a8), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #1b62a8 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b62a8', endColorstr='#79bbff');
+	background-color:#1b62a8;
+}.classbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.classbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+H3 {font-size:22px; color:#121212;}
+H2 {font:28px  Georgia; font-weight:bold; color:#121212; padding-top:6px; padding-left:8px}
+
+/* search */
+#pathway {
+	 font: 14px Verdana; color:#246224; text-align:left;
+	 padding-left:10px; padding-right:10px; border: 1px;
+}
+
+/*.content3{padding:0 2px 2px}*/
+.content3 p{font:11px verdana,serif;margin:0;padding:2px 0 0}
+.content3 .line{font-size:0;line-height:0;background:url("../images/line_300.gif") top left repeat-x;height:1px;margin-left:4px;margin-right:5px}
+.content3 a {text-decoration:none; font:11px verdana,serif;color:#06173C}
+.content3 a:hover {text-decoration: underline; COLOR: #08c;}
+.content3 .comment{font:11px verdana,serif;color:#333;padding-left:13px}
+.content3 .comment a{font:11px verdana,serif;color:#08c;text-decoration:none}
+.content3 .info{background:url(../images/ic_info0.gif) top left no-repeat;margin-left:10px;padding:3px 0 0 13px}
+.content3 p.description{font-size:11px;color:#7c7c7c; margin-left:3px; margin-right:3px; padding:0}
+.content3 p.description_r{font-size:10px;color:#4A4949;margin-left:2px;padding:0}
+.content3 img{padding:3px;}
+/*.content3 p.h4 a{COLOR: #6e6e6e; text-decoration: none; font: 12px Verdana; font-weight:bold;}     a:hover  */
+.content3 p.h4 {COLOR: #08c; text-decoration: underline; text-align:left;}
